@@ -20,7 +20,7 @@ The underlying algorithm is a least-squares calibration approach based on and si
 
 #### Parameters
 - `~calib_file` (string, default: "imu_calib.yaml") <br>
-  The file to which the calibration parameters will be written
+  The file to which the calibration parameters will be written.
   Ex: $(find test_ros)/config/imu_calib.yaml
 - `~measurements` (int, default: 500) <br>
   The number of measurements to collect for each orientation
